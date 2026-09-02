@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" role="img" aria-labelledby="title desc">
+  <title id="title">单前向通路与两个接触回路</title>
+  <desc id="desc">前向通路为R到E到X到Y，两个反馈回路共享E和X节点，因此是接触回路。</desc>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker>
+    <marker id="r" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <style>
+      .t{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#0f172a}.h{font-size:28px;font-weight:600}.n{font-size:21px}.s{font-size:18px;fill:#475569}
+      .p{fill:none;stroke:#2563eb;stroke-width:4;marker-end:url(#a)}.f{fill:none;stroke:#dc2626;stroke-width:3;marker-end:url(#r)}
+      .node{fill:#ffffff;stroke:#0f172a;stroke-width:2}.tag{fill:#fef2f2;stroke:#dc2626;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="1100" height="520" fill="#ffffff"/>
+  <text x="550" y="42" text-anchor="middle" class="t h">例一：一条前向通路，两个回路互相接触</text>
+  <path d="M100 220 H280" class="p"/><path d="M320 220 H530" class="p"/><path d="M570 220 H800" class="p"/>
+  <circle cx="80" cy="220" r="20" class="node"/><circle cx="300" cy="220" r="20" class="node"/><circle cx="550" cy="220" r="20" class="node"/><circle cx="820" cy="220" r="20" class="node"/>
+  <text x="80" y="228" text-anchor="middle" class="t n">R</text><text x="300" y="228" text-anchor="middle" class="t n">E</text>
+  <text x="550" y="228" text-anchor="middle" class="t n">X</text><text x="820" y="228" text-anchor="middle" class="t n">Y</text>
+  <text x="190" y="198" text-anchor="middle" class="t n">1</text><text x="425" y="198" text-anchor="middle" class="t n">G1</text><text x="685" y="198" text-anchor="middle" class="t n">G2</text>
+  <path d="M550 245 C550 345 300 345 300 245" class="f"/><text x="425" y="354" text-anchor="middle" class="t n">−H1</text>
+  <path d="M820 245 C820 440 300 440 300 245" class="f"/><text x="560" y="449" text-anchor="middle" class="t n">−H2</text>
+  <rect x="865" y="100" width="195" height="170" rx="10" class="tag"/>
+  <text x="882" y="132" class="t n">前向通路</text><text x="882" y="163" class="t s">P1 = G1 G2</text>
+  <text x="882" y="202" class="t n">回路</text><text x="882" y="233" class="t s">L1 = −G1 H1</text><text x="882" y="258" class="t s">L2 = −G1 G2 H2</text>
+  <text x="550" y="490" text-anchor="middle" class="t n">L1 与 L2 共享 E、X 节点 → 接触 → Δ 中不能出现 L1L2</text>
+</svg>

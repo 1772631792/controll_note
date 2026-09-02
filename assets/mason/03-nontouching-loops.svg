@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">两条前向通路与两个不接触回路</title>
+  <desc id="desc">上支路和下支路具有独立内部节点，两个局部反馈回路不共享节点，所以图行列式包含两个回路增益的乘积。</desc>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker>
+    <marker id="r" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <style>
+      .t{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#0f172a}.h{font-size:28px;font-weight:600}.n{font-size:20px}.s{font-size:17px;fill:#475569}
+      .p1{fill:none;stroke:#2563eb;stroke-width:4;marker-end:url(#a)}.p2{fill:none;stroke:#16a34a;stroke-width:4;marker-end:url(#a)}
+      .f{fill:none;stroke:#dc2626;stroke-width:3;marker-end:url(#r)}.node{fill:#fff;stroke:#0f172a;stroke-width:2}.tag{fill:#f8fafc;stroke:#94a3b8;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="1200" height="650" fill="#ffffff"/>
+  <text x="600" y="42" text-anchor="middle" class="t h">例二：两条前向通路，两个局部回路不接触</text>
+  <circle cx="80" cy="310" r="20" class="node"/><circle cx="1080" cy="310" r="20" class="node"/>
+  <text x="80" y="318" text-anchor="middle" class="t n">R</text><text x="1080" y="318" text-anchor="middle" class="t n">Y</text>
+  <circle cx="300" cy="170" r="20" class="node"/><circle cx="550" cy="170" r="20" class="node"/>
+  <text x="300" y="178" text-anchor="middle" class="t n">A</text><text x="550" y="178" text-anchor="middle" class="t n">B</text>
+  <path d="M98 300 L282 182" class="p1"/><text x="180" y="220" class="t n">G1</text>
+  <path d="M320 170 H530" class="p1"/><text x="425" y="148" text-anchor="middle" class="t n">G2</text>
+  <path d="M570 182 L1062 300" class="p1"/><text x="810" y="220" class="t n">G3</text>
+  <path d="M550 195 C550 275 300 275 300 195" class="f"/><text x="425" y="287" text-anchor="middle" class="t n">−H1</text>
+  <circle cx="480" cy="430" r="20" class="node"/><text x="480" y="438" text-anchor="middle" class="t n">C</text>
+  <path d="M98 320 L460 425" class="p2"/><text x="260" y="390" class="t n">G4</text>
+  <path d="M500 425 L1062 320" class="p2"/><text x="790" y="395" class="t n">G5</text>
+  <path d="M465 448 C380 545 585 545 495 448" class="f"/><text x="480" y="558" text-anchor="middle" class="t n">−K</text>
+  <rect x="820" y="470" width="330" height="135" rx="10" class="tag"/>
+  <text x="840" y="503" class="t n">上回路：L1 = −G2 H1</text>
+  <text x="840" y="537" class="t n">下回路：L2 = −K</text>
+  <text x="840" y="576" class="t n">无共享节点 → Δ 含 +L1L2</text>
+  <text x="600" y="620" text-anchor="middle" class="t s">P1 = G1G2G3；P2 = G4G5；每条通路的余因子保留另一条支路上的回路</text>
+</svg>

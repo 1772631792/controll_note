@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">串联、并联和负反馈结构图</title>
+  <desc id="desc">从上到下展示串联、并联和负反馈三种基础结构以及对应总增益。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker>
+    <style>
+      .t{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#0f172a}.h{font-size:28px;font-weight:600}.n{font-size:22px}.s{font-size:18px;fill:#475569}
+      .box{fill:#eff6ff;stroke:#2563eb;stroke-width:2}.sum{fill:#fff7ed;stroke:#ea580c;stroke-width:2}
+      .line{fill:none;stroke:#334155;stroke-width:2.5;marker-end:url(#arrow)}.fb{fill:none;stroke:#dc2626;stroke-width:2.5;marker-end:url(#arrow)}
+      .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="#ffffff"/>
+  <text x="600" y="42" text-anchor="middle" class="t h">从三种基本结构看“消元”</text>
+
+  <rect x="35" y="70" width="1130" height="180" rx="12" class="panel"/>
+  <text x="70" y="108" class="t h">1. 串联</text>
+  <text x="90" y="176" class="t n">R</text>
+  <path d="M125 168 H270" class="line"/>
+  <rect x="270" y="135" width="150" height="65" rx="8" class="box"/>
+  <text x="345" y="176" text-anchor="middle" class="t n">G1</text>
+  <path d="M420 168 H560" class="line"/>
+  <text x="485" y="151" class="t s">X = G1 R</text>
+  <rect x="560" y="135" width="150" height="65" rx="8" class="box"/>
+  <text x="635" y="176" text-anchor="middle" class="t n">G2</text>
+  <path d="M710 168 H850" class="line"/>
+  <text x="870" y="176" class="t n">Y</text>
+  <text x="1000" y="176" text-anchor="middle" class="t n">Y/R = G1 G2</text>
+
+  <rect x="35" y="270" width="1130" height="190" rx="12" class="panel"/>
+  <text x="70" y="308" class="t h">2. 并联</text>
+  <text x="90" y="380" class="t n">R</text>
+  <circle cx="150" cy="372" r="6" fill="#334155"/>
+  <path d="M120 372 H150 V332 H300" class="line"/>
+  <path d="M150 372 V412 H300" class="line"/>
+  <rect x="300" y="300" width="150" height="62" rx="8" class="box"/>
+  <text x="375" y="339" text-anchor="middle" class="t n">G1</text>
+  <rect x="300" y="382" width="150" height="62" rx="8" class="box"/>
+  <text x="375" y="421" text-anchor="middle" class="t n">G2</text>
+  <path d="M450 331 H620 V372 H670" class="line"/>
+  <path d="M450 413 H620 V372" class="line"/>
+  <circle cx="700" cy="372" r="30" class="sum"/>
+  <text x="700" y="380" text-anchor="middle" class="t h">+</text>
+  <path d="M730 372 H850" class="line"/>
+  <text x="870" y="380" class="t n">Y</text>
+  <text x="1000" y="380" text-anchor="middle" class="t n">Y/R = G1 + G2</text>
+
+  <rect x="35" y="480" width="1130" height="205" rx="12" class="panel"/>
+  <text x="70" y="518" class="t h">3. 负反馈</text>
+  <text x="90" y="588" class="t n">R</text>
+  <path d="M120 580 H245" class="line"/>
+  <circle cx="275" cy="580" r="30" class="sum"/>
+  <text x="275" y="572" text-anchor="middle" class="t n">+</text>
+  <text x="275" y="602" text-anchor="middle" class="t n">−</text>
+  <path d="M305 580 H430" class="line"/>
+  <text x="350" y="560" class="t s">E</text>
+  <rect x="430" y="547" width="150" height="65" rx="8" class="box"/>
+  <text x="505" y="588" text-anchor="middle" class="t n">G</text>
+  <path d="M580 580 H780" class="line"/>
+  <text x="800" y="588" class="t n">Y</text>
+  <path d="M745 580 V650 H520" class="fb"/>
+  <rect x="370" y="620" width="150" height="60" rx="8" class="box"/>
+  <text x="445" y="658" text-anchor="middle" class="t n">H</text>
+  <path d="M370 650 H275 V610" class="fb"/>
+  <text x="1000" y="588" text-anchor="middle" class="t n">Y/R = G/(1 + GH)</text>
+</svg>

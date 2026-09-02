@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" role="img" aria-labelledby="title desc">
+  <title id="title">参考输入和扰动输入的信号流图</title>
+  <desc id="desc">参考输入经过两个环节到输出，扰动从第二个环节前注入；求不同传递函数时分别把另一输入置零。</desc>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker>
+    <marker id="r" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker>
+    <style>
+      .t{font-family:Arial,'Microsoft YaHei',sans-serif;fill:#0f172a}.h{font-size:28px;font-weight:600}.n{font-size:21px}.s{font-size:18px;fill:#475569}
+      .ref{fill:none;stroke:#2563eb;stroke-width:4;marker-end:url(#a)}.dist{fill:none;stroke:#16a34a;stroke-width:4;marker-end:url(#a)}
+      .fb{fill:none;stroke:#dc2626;stroke-width:3;marker-end:url(#r)}.node{fill:#fff;stroke:#0f172a;stroke-width:2}.tag{fill:#f8fafc;stroke:#94a3b8;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="1100" height="520" fill="#ffffff"/>
+  <text x="550" y="42" text-anchor="middle" class="t h">例三：同一张图，换源点得到不同传递函数</text>
+  <circle cx="80" cy="230" r="20" class="node"/><text x="80" y="238" text-anchor="middle" class="t n">R</text>
+  <circle cx="300" cy="230" r="20" class="node"/><text x="300" y="238" text-anchor="middle" class="t n">E</text>
+  <circle cx="560" cy="230" r="20" class="node"/><text x="560" y="238" text-anchor="middle" class="t n">X</text>
+  <circle cx="820" cy="230" r="20" class="node"/><text x="820" y="238" text-anchor="middle" class="t n">Y</text>
+  <path d="M100 230 H280" class="ref"/><text x="190" y="208" text-anchor="middle" class="t n">1</text>
+  <path d="M320 230 H540" class="ref"/><text x="430" y="208" text-anchor="middle" class="t n">G1</text>
+  <path d="M580 230 H800" class="ref"/><text x="690" y="208" text-anchor="middle" class="t n">G2</text>
+  <circle cx="560" cy="80" r="20" class="node"/><text x="560" y="88" text-anchor="middle" class="t n">N</text>
+  <path d="M560 100 V210" class="dist"/><text x="580" y="150" class="t n">1</text>
+  <path d="M820 255 C820 400 300 400 300 255" class="fb"/><text x="560" y="410" text-anchor="middle" class="t n">−H</text>
+  <rect x="865" y="95" width="205" height="230" rx="10" class="tag"/>
+  <text x="885" y="130" class="t n">求参考通道</text><text x="885" y="162" class="t s">令 N = 0</text><text x="885" y="192" class="t s">Pr = G1 G2</text>
+  <text x="885" y="235" class="t n">求扰动通道</text><text x="885" y="267" class="t s">令 R = 0</text><text x="885" y="297" class="t s">Pn = G2</text>
+  <text x="550" y="475" text-anchor="middle" class="t n">回路相同：L = −G1G2H；源点不同：前向通路不同</text>
+</svg>
