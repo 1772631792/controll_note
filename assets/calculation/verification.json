@@ -1,0 +1,126 @@
+{
+  "01_repeated_pole": {
+    "passed": true
+  },
+  "01_selftest": {
+    "passed": true
+  },
+  "02_exponential": {
+    "passed": true
+  },
+  "02_repeated_eigenvalue": {
+    "passed": true
+  },
+  "03_shift": {
+    "passed": true,
+    "strict_interval": [
+      6,
+      12
+    ]
+  },
+  "03_roots_5": {
+    "passed": true
+  },
+  "03_roots_9": {
+    "passed": true
+  },
+  "03_roots_13": {
+    "passed": true
+  },
+  "03_boundaries": {
+    "passed": true
+  },
+  "04_frequency_algebra": {
+    "passed": true
+  },
+  "04_frequency_numeric": {
+    "passed": true,
+    "crossover_K3": 0.9692600572533271,
+    "gain_margin_K3": 2,
+    "gain_margin_db": 6.020599913279624,
+    "phase_margin_K3": 20.038086818298467
+  },
+  "05_damping_8": {
+    "passed": true,
+    "roots": [
+      [
+        -4.666666666666675,
+        0.0
+      ],
+      [
+        -0.6666666666666665,
+        1.154700538379252
+      ],
+      [
+        -0.6666666666666665,
+        -1.154700538379252
+      ]
+    ]
+  },
+  "05_damping_10": {
+    "passed": true,
+    "roots": [
+      [
+        -4.333333333333327,
+        0.0
+      ],
+      [
+        -0.8333333333333333,
+        1.4433756729740648
+      ],
+      [
+        -0.8333333333333333,
+        -1.4433756729740648
+      ]
+    ]
+  },
+  "06_zero_response": {
+    "passed": true,
+    "minimum": -0.21306131942526685
+  },
+  "06_residue_crossover": {
+    "passed": true,
+    "crossover": 3.635660673148493
+  },
+  "07_singular_zoh": {
+    "passed": true,
+    "Ad_half": "Matrix([[1, 1/2], [0, 1]])",
+    "Bd_half": "Matrix([[1/8], [1/2]])"
+  },
+  "08_parametric_rank": {
+    "passed": true
+  },
+  "08_parametric_feedback": {
+    "passed": true,
+    "weak_beta": 0.001,
+    "gain": [
+      6,
+      -2000
+    ]
+  },
+  "08_degenerate_selftest": {
+    "passed": true
+  },
+  "09_finite_steps_main": {
+    "passed": true,
+    "u": [
+      -1,
+      1
+    ],
+    "intermediate": [
+      1,
+      -1
+    ]
+  },
+  "09_finite_steps_selftest": {
+    "passed": true,
+    "u": [
+      -2,
+      1
+    ],
+    "intermediate": [
+      1,
+      -1
+    ]
+  }
+}

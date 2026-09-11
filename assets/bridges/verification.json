@@ -1,0 +1,63 @@
+{
+  "01_transfer_initial": {
+    "passed": true
+  },
+  "01_ode": {
+    "passed": true
+  },
+  "02_determinant_identity": {
+    "passed": true
+  },
+  "02_feedback": {
+    "passed": true,
+    "gain": [
+      10,
+      4
+    ]
+  },
+  "03_lyapunov": {
+    "passed": true,
+    "P": "Matrix([[5/4, 1/4], [1/4, 1/4]])"
+  },
+  "04_hidden_mode": {
+    "passed": true
+  },
+  "05_prefilter": {
+    "passed": true,
+    "N": 12,
+    "unit_disturbance_offset": 0.08333333333333333
+  },
+  "05_integral": {
+    "passed": true,
+    "gain": [
+      9,
+      3
+    ],
+    "integral_gain": 6
+  },
+  "06_observer": {
+    "passed": true,
+    "observer_gain": [
+      8,
+      4
+    ]
+  },
+  "07_sampling": {
+    "passed": true,
+    "continuous_sample": 0.049787068367863944,
+    "digital_sample": -0.896361676485673,
+    "boundary_T": 1.0986122886681098
+  },
+  "08_channels": {
+    "passed": true
+  },
+  "09_exercises": {
+    "passed": true
+  },
+  "05_numeric_prefilter": {
+    "passed": true
+  },
+  "05_numeric_integral": {
+    "passed": true
+  }
+}

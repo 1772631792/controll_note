@@ -1,0 +1,18 @@
+{
+  "checked_on": "2026-09-11",
+  "document": "16.厦大官网考纲与资料对照（范围、知识点与训练缺口）.md",
+  "reference_and_local_links_checked": 78,
+  "broken_links": [],
+  "mapping_rows": 18,
+  "personal_tracking_rows": 18,
+  "target": {
+    "admission_year": 2027,
+    "college": "航空航天学院",
+    "majors": [
+      "085406 控制工程",
+      "085407 仪器仪表工程"
+    ],
+    "specialized_exam": "844 自动控制原理"
+  },
+  "note": "Source table subject mapping checked separately. Not a numerical estimate of exam coverage or learner mastery."
+}

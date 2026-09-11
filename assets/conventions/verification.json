@@ -1,0 +1,326 @@
+{
+  "nyquist": [
+    {
+      "model": "L=2/(s-1)",
+      "P": 1,
+      "Z_roots": 0,
+      "imaginary_axis_closed_poles": false,
+      "closed_poles": [
+        [
+          -1.0,
+          0.0
+        ]
+      ],
+      "N_plus": 0.5,
+      "N_minus": 0,
+      "R": 1,
+      "trials": [
+        {
+          "epsilon": 0.01,
+          "R_ccw": 1,
+          "N_plus_measured": 0.5,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.9999999999999996
+        },
+        {
+          "epsilon": 0.003,
+          "R_ccw": 1,
+          "N_plus_measured": 0.5,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.9999999999999996
+        },
+        {
+          "epsilon": 0.001,
+          "R_ccw": 1,
+          "N_plus_measured": 0.5,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.9999999999999996
+        }
+      ]
+    },
+    {
+      "model": "L=0.5/(s-1)",
+      "P": 1,
+      "Z_roots": 1,
+      "imaginary_axis_closed_poles": false,
+      "closed_poles": [
+        [
+          0.5,
+          0.0
+        ]
+      ],
+      "N_plus": 0,
+      "N_minus": 0,
+      "R": 0,
+      "trials": [
+        {
+          "epsilon": 0.01,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.4949494949494949
+        },
+        {
+          "epsilon": 0.003,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.49849548645937813
+        },
+        {
+          "epsilon": 0.001,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.49949949949949946
+        }
+      ]
+    },
+    {
+      "model": "L=4/[s(s+1)(s+2)]",
+      "P": 0,
+      "Z_roots": 0,
+      "imaginary_axis_closed_poles": false,
+      "closed_poles": [
+        [
+          -2.796321903259444,
+          0.0
+        ],
+        [
+          -0.10183904837027907,
+          1.1916707956047308
+        ],
+        [
+          -0.10183904837027907,
+          -1.1916707956047308
+        ]
+      ],
+      "N_plus": 0,
+      "N_minus": 0,
+      "R": 0,
+      "trials": [
+        {
+          "epsilon": 0.01,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.1702127897449585
+        },
+        {
+          "epsilon": 0.003,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.17020825529903735
+        },
+        {
+          "epsilon": 0.001,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.1702127897449585
+        }
+      ]
+    },
+    {
+      "model": "L=12/[s(s+1)(s+2)]",
+      "P": 0,
+      "Z_roots": 2,
+      "imaginary_axis_closed_poles": false,
+      "closed_poles": [
+        [
+          -3.4348413682168983,
+          0.0
+        ],
+        [
+          0.21742068410845072,
+          1.8564318910978836
+        ],
+        [
+          0.21742068410845072,
+          -1.8564318910978836
+        ]
+      ],
+      "N_plus": 0,
+      "N_minus": 1,
+      "R": -2,
+      "trials": [
+        {
+          "epsilon": 0.01,
+          "R_ccw": -2,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 1.0,
+          "min_abs_1_plus_L": 0.2909718902557896
+        },
+        {
+          "epsilon": 0.003,
+          "R_ccw": -2,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 1.0,
+          "min_abs_1_plus_L": 0.29097049861104746
+        },
+        {
+          "epsilon": 0.001,
+          "R_ccw": -2,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 1.0,
+          "min_abs_1_plus_L": 0.2909684318072234
+        }
+      ]
+    },
+    {
+      "model": "L=1/[s(s+1)]",
+      "P": 0,
+      "Z_roots": 0,
+      "imaginary_axis_closed_poles": false,
+      "closed_poles": [
+        [
+          -0.5,
+          0.8660254037844385
+        ],
+        [
+          -0.5,
+          -0.8660254037844385
+        ]
+      ],
+      "N_plus": 0,
+      "N_minus": 0,
+      "R": 0,
+      "trials": [
+        {
+          "epsilon": 0.01,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.6812504096237036
+        },
+        {
+          "epsilon": 0.003,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.6812500777956798
+        },
+        {
+          "epsilon": 0.001,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.6812500533106148
+        }
+      ]
+    },
+    {
+      "model": "L=1/[s^2(s+1)]",
+      "P": 0,
+      "Z_roots": 2,
+      "imaginary_axis_closed_poles": false,
+      "closed_poles": [
+        [
+          -1.4655712318767682,
+          0.0
+        ],
+        [
+          0.23278561593838404,
+          0.7925519925154478
+        ],
+        [
+          0.23278561593838404,
+          -0.7925519925154478
+        ]
+      ],
+      "N_plus": 0,
+      "N_minus": 1,
+      "R": -2,
+      "trials": [
+        {
+          "epsilon": 0.01,
+          "R_ccw": -2,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 1.0,
+          "min_abs_1_plus_L": 0.6900916229472137
+        },
+        {
+          "epsilon": 0.003,
+          "R_ccw": -2,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 1.0,
+          "min_abs_1_plus_L": 0.6900924416361691
+        },
+        {
+          "epsilon": 0.001,
+          "R_ccw": -2,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 1.0,
+          "min_abs_1_plus_L": 0.6900916229472137
+        }
+      ]
+    },
+    {
+      "model": "L=(s+1)/s^2",
+      "P": 0,
+      "Z_roots": 0,
+      "imaginary_axis_closed_poles": false,
+      "closed_poles": [
+        [
+          -0.5,
+          0.8660254037844385
+        ],
+        [
+          -0.5,
+          -0.8660254037844385
+        ]
+      ],
+      "N_plus": 0,
+      "N_minus": 0,
+      "R": 0,
+      "trials": [
+        {
+          "epsilon": 0.01,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.8660256373992363
+        },
+        {
+          "epsilon": 0.003,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.8660254054591886
+        },
+        {
+          "epsilon": 0.001,
+          "R_ccw": 0,
+          "N_plus_measured": 0.0,
+          "N_minus_measured": 0.0,
+          "min_abs_1_plus_L": 0.8660254871434157
+        }
+      ]
+    },
+    {
+      "model": "L=1/s^2 (boundary)",
+      "P": 0,
+      "Z_roots": 0,
+      "imaginary_axis_closed_poles": true,
+      "closed_poles": [
+        [
+          -0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0
+        ]
+      ],
+      "note": "虚轴闭环根：不套严格稳定 Nyquist 计数；即使 Z=0 也不宣布稳定。"
+    }
+  ],
+  "symbolic_checks": [
+    "Jury via bilinear transform",
+    "lead parameter reciprocity",
+    "similarity transfer invariance",
+    "continuous CARE closed-loop equivalence",
+    "Laurent coefficients at zero"
+  ]
+}

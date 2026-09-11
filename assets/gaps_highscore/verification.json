@@ -1,0 +1,115 @@
+{
+  "14_1_scalar": {
+    "passed": true
+  },
+  "14_2_energy": {
+    "passed": true
+  },
+  "14_2_linearization": {
+    "passed": true
+  },
+  "14_3_harmonic_balance": {
+    "passed": true,
+    "amplitude": 0.2122065907891938,
+    "omega": 1.4142135623730951,
+    "relative_third_harmonic": 0.023057148795535817
+  },
+  "14_4_scalar_transition": {
+    "passed": true
+  },
+  "14_4_noncommuting": {
+    "passed": true,
+    "transition": "Matrix([[1, 1], [1, 2]])"
+  },
+  "14_5_frozen_eigenvalue_counterexample": {
+    "passed": true
+  },
+  "14_6_lead": {
+    "passed": true,
+    "gain": 16,
+    "compensator_pole": -8,
+    "closed_poles": [
+      [
+        -6,
+        0
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -2,
+        -2
+      ]
+    ],
+    "Kv": 3
+  },
+  "15_1_shift": {
+    "passed": true
+  },
+  "15_1_feasible": {
+    "passed": true,
+    "example": {
+      "k": 12,
+      "a": 0.75,
+      "error": 0.2222222222222222,
+      "poles": [
+        [
+          -0.5921689348361745,
+          3.2685342896794505
+        ],
+        [
+          -0.5921689348361745,
+          -3.2685342896794505
+        ],
+        [
+          -0.8156621303276524,
+          0.0
+        ]
+      ]
+    }
+  },
+  "15_1_boundary": {
+    "passed": true
+  },
+  "15_2_bias": {
+    "passed": true,
+    "bias_multiplier": -0.6
+  },
+  "15_2_augmented_observability": {
+    "passed": true
+  },
+  "15_3_gramian": {
+    "passed": true,
+    "W": "Matrix([[1, 1/2], [1/2, 1/3]])",
+    "minimum_energy": 12
+  },
+  "15_4_hidden_mode": {
+    "passed": true
+  },
+  "15_4_initial_response": {
+    "passed": true
+  },
+  "14_2_trajectory_0": {
+    "passed": true
+  },
+  "14_2_trajectory_1": {
+    "passed": true
+  },
+  "14_2_trajectory_2": {
+    "passed": true
+  },
+  "14_4_numeric_response": {
+    "passed": true
+  },
+  "14_5_numeric_counterexample": {
+    "passed": true
+  },
+  "15_2_numeric_bias": {
+    "passed": true,
+    "final_output": 0.87999999939584
+  },
+  "15_3_numeric_terminal": {
+    "passed": true
+  }
+}
